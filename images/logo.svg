@@ -1,0 +1,25 @@
+<svg viewBox="0 0 250 90" preserveAspectRatio="xMidYMid meet" data-browser="Firefox[41.0]" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="logo__item--business" class="logo__item">
+                <g transform="translate(64.17500305175781 50.536559643777764) scale(1 1) rotate(0 0 0)" class="logo__item__inner">
+                    <text dy="" dominant-baseline="auto" alignment-baseline="auto" font-family="'Montserrat-Bold'" font-size="32px" fill="#007BC2" letter-spacing="0" font-weight="normal" font-style="normal">Bluestream</text>
+                </g>
+            </g><g id="logo__item--tagline_1" class="logo__item">
+    <g class="logo__item__inner" transform="translate(67.57499694824219 72.53655964377776) scale(1.1407657395149124 1.1407657395149124) rotate(0 0 0)">
+        <text dy="" dominant-baseline="auto" alignment-baseline="auto" font-family="'OpenSans-Semibold'" font-size="18px" fill="#5FBA46" letter-spacing="0" font-weight="normal" font-style="normal">Technology Group</text>
+    </g>
+</g><g class="logo__item" id="logo__item--logo_0">
+    <g transform="translate(-21.13944223107569 -4.5) scale(1.0002628915306937 1.0002628915306937) rotate(0 0 0)" class="logo__item__inner">
+        
+<g>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#5FBA46" d="M51.674,67.377c-1.911,5.856-1.835,12.333,5.07,15.083   c-4.547-2.943-3.184-9.973-0.688-15.82c2.114-4.957,5.443-9.149,7.996-13.867c3.88-7.181,6.384-15.313,0.475-20.377   c3.343,4.994,0.328,12.169-3.511,18.611C57.781,56.428,53.661,61.287,51.674,67.377z"></path>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#5FBA46" d="M32.303,60.989c-1.883,6.822-1.456,14.253,6.614,17.045   c-5.369-3.138-4.179-11.282-1.624-18.122c2.165-5.803,5.769-10.792,8.447-16.341c4.073-8.447,6.519-17.916-0.535-23.415   c4.103,5.556,1.02,13.951-3.044,21.547C38.735,48.099,34.263,53.893,32.303,60.989z"></path>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#5FBA46" d="M25.078,59.898c-1.409,5.109-1.088,10.67,4.952,12.762   c-4.018-2.351-3.128-8.445-1.215-13.568c1.621-4.344,4.318-8.078,6.323-12.232c3.051-6.324,4.881-13.414-0.4-17.529   c3.072,4.16,0.764,10.444-2.278,16.131C29.894,50.247,26.546,54.586,25.078,59.898z"></path>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#5FBA46" d="M59.958,68.336c-1.728,5.01-1.755,10.581,4.142,13.045   c-3.864-2.598-2.594-8.624-0.364-13.616c1.892-4.232,4.817-7.793,7.08-11.813c3.438-6.121,5.711-13.082,0.697-17.52   c2.807,4.344,0.109,10.471-3.286,15.956C65.367,59.004,61.756,63.123,59.958,68.336z"></path>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="40.7173" y1="50.0293" x2="63.6094" y2="50.0293">
+		<stop offset="0" style="stop-color:#5FBA46"></stop>
+		<stop offset="1" style="stop-color:#A5CD39"></stop>
+	</linearGradient>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#007BC2" d="M56.962,91.699c-18.497-11.023-7.099-31.284-0.138-43.849   C66.48,30.428,68.532,10.793,44.649,8.359c15.119,5.742,12.47,22.554,4.08,37.692C41.599,58.92,31.77,79.113,56.962,91.699z"></path>
+</g>
+
+    </g>
+</g></svg>
