@@ -51,6 +51,9 @@ button:focus {
 .site_logo {
   max-width: 240px;
 }
+.site_logo img {
+  height: 80px;
+}
 .site_header .navbar-nav .nav-item {
   padding: 0px 10px;
 }
