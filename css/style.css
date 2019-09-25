@@ -159,7 +159,8 @@ button:focus {
 /*************sec_1 Area start*************/
 
 .home_sec_1 {
-  background: url(../images/netting/home_left.png) top left no-repeat;
+  background: url(../images/netting/home_left.png) bottom left no-repeat;
+  background-size: 500px auto;
   position: relative;
   z-index: 100;
   margin-top: -200px;
