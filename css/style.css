@@ -531,14 +531,14 @@ button:focus {
 .service_hero .hero_txt {
   max-width: 830px;
 }
-.sercices_area {
+.services_area {
   padding-bottom: 300px;
   background: url(../images/netting/service_left.png) bottom left no-repeat;
 }
-.sercices_area_box {
+.services_area_box {
   background: url(../images/netting/service_right.png) top right no-repeat;
 }
-.sercices_img {
+.services_img {
   position: relative;
   margin-top: -50px;
   z-index: 200;
@@ -546,13 +546,13 @@ button:focus {
 .right_align_img {
   text-align: right;
 }
-.sercices_txt {
+.services_txt {
   padding-top: 50px;
   position: relative;
   padding-left: 50px;
   max-width: 560px;
 }
-.sercices_txt h2 {
+.services_txt h2 {
   position: absolute;
   top: 50px;
   right: 100%;
@@ -561,16 +561,16 @@ button:focus {
   line-height: 100px;
   margin-right: -20px;
 }
-.sercices_txt h4 {
+.services_txt h4 {
   font-size: 28px;
   line-height: 38px;
   color: #000;
   font-weight: 600;
 }
-.sercices_txt i {
+.services_txt i {
   font-style: normal;
 }
-.sercices_txt p {
+.services_txt p {
   font-size: 21px;
   line-height: 31px;
   color: #656565;
@@ -579,23 +579,23 @@ button:focus {
 .right_align_txt {
   float: right;
 }
-.sercices_btn {
+.services_btn {
 }
-.sercices_img_1 {
+.services_img_1 {
 }
-.sercices_img_2 {
+.services_img_2 {
   margin-top: -190px;
 }
-.sercices_img_3 {
+.services_img_3 {
 }
-.sercices_img_4 {
+.services_img_4 {
   margin-top: -140px;
 }
-.sercices_btn {
+.services_btn {
   padding-top: 20px;
   text-align: center;
 }
-.sercices_btn a {
+.services_btn a {
   width: 220px;
   height: 60px;
   font-size: 18px;
@@ -609,7 +609,7 @@ button:focus {
   border-radius: 50px;
   font-weight: 500;
 }
-.sercices_btn a:hover {
+.services_btn a:hover {
   background: #007acc;
   transition: 0.4s;
 }

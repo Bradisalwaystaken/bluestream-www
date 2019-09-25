@@ -27,27 +27,29 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <nav class="navbar navbar-expand-lg">
-              <a class="navbar-brand site_logo" href="index.html"
-                ><img src="images/logo.svg" alt="logo"
-              /></a>
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <div class="nav_toggle" onclick="myFunction(this)">
-                  <div class="bar1"></div>
-                  <div class="bar2"></div>
-                  <div class="bar3"></div>
-                </div>
-              </button>
+            <input id="main-menu-checkbox" type="checkbox" />
 
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <nav
+              class="navbar navbar-expand-lg"
+              role="navigation"
+              aria-expanded="false"
+              aria-label="Main menu"
+            >
+              <a class="navbar-brand site_logo" href="index.html">
+                <img src="images/logo.svg" alt="logo" />
+              </a>
+              <label for="main-menu-checkbox" class="menu-close">
+                <span class="sr-only">Close main menu</span>
+                <div class="navbar-toggler" aria-hidden="true">
+                  <div class="nav_toggle">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                  </div>
+                </div>
+              </label>
+
+              <div class="menu">
                 <ul class="navbar-nav ml-auto">
                   <li class="nav-item">
                     <a class="nav-link" href="index.html">Home</a>
@@ -55,7 +57,7 @@
                   <li class="nav-item">
                     <a class="nav-link" href="about.html">About</a>
                   </li>
-                  <li class="nav-item  nav_active">
+                  <li class="nav-item nav_active">
                     <a class="nav-link" href="services.html">Services</a>
                   </li>
                   <li class="nav-item">
@@ -67,6 +69,13 @@
                 </ul>
               </div>
             </nav>
+            <label
+              for="main-menu-checkbox"
+              class="backdrop"
+              tabindex="-1"
+              aria-hidden="true"
+              hidden
+            ></label>
           </div>
         </div>
       </div>
@@ -112,17 +121,17 @@
 
     <!--Area Start -->
 
-    <section class="sercices_area">
-      <div class="sercices_area_box">
+    <section class="services_area">
+      <div class="services_area_box">
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-6">
-              <div class="sercices_img sercices_img_1 right_align_img">
+              <div class="services_img services_img_1 right_align_img">
                 <img src="images/step-1.png" alt="img" />
               </div>
             </div>
             <div class="col-md-6">
-              <div class="sercices_txt left_align_txt">
+              <div class="services_txt left_align_txt">
                 <h2>1</h2>
                 <h4><span>Step One</span> <i>-</i> Technical Assessment</h4>
                 <p>
@@ -135,7 +144,7 @@
           </div>
           <div class="row">
             <div class="col-md-6">
-              <div class="sercices_txt right_align_txt">
+              <div class="services_txt right_align_txt">
                 <h2>2</h2>
                 <h4><span>Step Two</span> <i>-</i> Project Cost Assessment</h4>
                 <p>
@@ -147,19 +156,19 @@
               </div>
             </div>
             <div class="col-md-6">
-              <div class="sercices_img sercices_img_2">
+              <div class="services_img services_img_2">
                 <img src="images/step-2.png" alt="img" />
               </div>
             </div>
           </div>
           <div class="row">
             <div class="col-md-6">
-              <div class="sercices_img sercices_img_3 right_align_img">
+              <div class="services_img services_img_3 right_align_img">
                 <img src="images/step-3.png" alt="img" />
               </div>
             </div>
             <div class="col-md-6">
-              <div class="sercices_txt left_align_txt">
+              <div class="services_txt left_align_txt">
                 <h2>3</h2>
                 <h4><span>Step Three</span> <i>-</i> Review and Filing</h4>
                 <p>
@@ -173,7 +182,7 @@
           </div>
           <div class="row">
             <div class="col-md-6">
-              <div class="sercices_txt right_align_txt">
+              <div class="services_txt right_align_txt">
                 <h2>4</h2>
                 <h4><span>Step Four</span> <i>-</i> Follow-up and Support</h4>
                 <p>
@@ -186,14 +195,14 @@
               </div>
             </div>
             <div class="col-md-6">
-              <div class="sercices_img sercices_img_4 left_align_img">
+              <div class="services_img services_img_4 left_align_img">
                 <img src="images/step-4.png" alt="img" />
               </div>
             </div>
           </div>
           <div class="row">
             <div class="col-md-12">
-              <div class="sercices_btn">
+              <div class="services_btn">
                 <a href="#">CONTACT US</a>
               </div>
             </div>
@@ -211,6 +220,8 @@
           <div class="col-md-4"></div>
           <div class="col-md-4">
             <div class="footer_nav">
+              <a href="index.html">Home</a>
+              <span> | </span>
               <a href="about.html">About</a>
               <span> | </span>
               <a href="services.html">Services</a>
