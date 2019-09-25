@@ -260,7 +260,7 @@
                     rows="3"
                   ></textarea>
                 </div>
-                <div data-netlify-recaptcha="true"></div>
+                <div class="recaptcha" data-netlify-recaptcha="true"></div>
                 <div class="form_submit">
                   <button type="submit" class="btn">Submit</button>
                 </div>
@@ -303,14 +303,18 @@
     <!-- Custom JavaScript -->
     <script src="js/custom.js"></script>
   </body>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-148749293-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=UA-148749293-1"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-  gtag('config', 'UA-148749293-1');
-</script>
-
+    gtag("config", "UA-148749293-1");
+  </script>
 </html>
