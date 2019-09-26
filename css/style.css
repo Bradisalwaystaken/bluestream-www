@@ -278,7 +278,7 @@ button:focus {
 /*************Careers Area start*************/
 
 .careers_txt_area {
-  padding: 80px 0px 200px;
+  padding: 0 0 200px;
 }
 .careers_txt_area p {
   font-size: 21px;
@@ -301,13 +301,13 @@ button:focus {
   list-style-type: none;
   text-align: center;
   padding-top: 30px;
-}
-.careers_list_area ul li {
   font-size: 21px;
   color: #fff;
   line-height: 37px;
 }
-
+.careers_list_area ul li:first-of-type {
+  padding-top: 0;
+}
 /*************Contact page Area start*************/
 
 .contact_info {
