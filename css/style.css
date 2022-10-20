@@ -352,6 +352,10 @@ button:focus {
 .contact_location .col-md-3 {
   padding-top: 30px;
 }
+.contact_location .col-md-4 {
+  padding-top: 30px;
+}
+
 .contact_location_item {
   text-align: center;
 }
@@ -360,6 +364,10 @@ button:focus {
   color: #000;
   line-height: 31px;
 }
+.centered-row {
+  justify-content: center;
+}
+
 .accounts_receivable {
   margin-bottom: 30px;
 }
